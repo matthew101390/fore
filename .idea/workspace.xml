@@ -1,15 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="549bc70d-8d50-4f7f-a005-737f690d4c13" name="Default Changelist" comment="">
+    <list default="true" id="549bc70d-8d50-4f7f-a005-737f690d4c13" name="Default Changelist" comment="make project structure correct. Or the sure">
+      <change afterPath="$PROJECT_DIR$/src/test/java/myTest/Demo1Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/myTest/RockTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/TwoValuesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/TwoValuesTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/src/TwoValues.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/TwoValuesTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/operation/TwoValues.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/fore/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/fore/WEB-INF/classes/Add.class" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -18,6 +32,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/test" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/test" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -26,10 +41,14 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\myGitHubs\fore\src\main\test" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\myGitHubs\fore\src\test\java" />
       <recent name="C:\myGitHubs\fore\src" />
     </key>
   </component>
@@ -45,17 +64,42 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TwoValuesTest (1)">
-    <configuration name="TwoValuesTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.Demo1Test (1)">
+    <configuration name="Demo1Test (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="fore" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TwoValuesTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="myTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="myTest" />
+      <option name="MAIN_CLASS_NAME" value="myTest.Demo1Test" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TwoValuesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Demo1Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="fore" />
+      <option name="PACKAGE_NAME" value="java" />
+      <option name="MAIN_CLASS_NAME" value="java.Demo1Test" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Demo1Test.addition" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="fore" />
+      <option name="PACKAGE_NAME" value="java" />
+      <option name="MAIN_CLASS_NAME" value="java.Demo1Test" />
+      <option name="METHOD_NAME" value="addition" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="fore" />
       <extension name="coverage">
         <pattern>
@@ -64,13 +108,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.TwoValuesTest" />
+      <option name="MAIN_CLASS_NAME" value="test.DemoTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TwoValuesTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="DemoTest2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="fore" />
       <extension name="coverage">
         <pattern>
@@ -79,10 +123,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.TwoValuesTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="MAIN_CLASS_NAME" value="test.DemoTest2" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -177,9 +219,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TwoValuesTest (1)" />
-        <item itemvalue="JUnit.TwoValuesTest" />
-        <item itemvalue="TestNG.TwoValuesTest" />
+        <item itemvalue="JUnit.Demo1Test (1)" />
+        <item itemvalue="JUnit.Demo1Test.addition" />
+        <item itemvalue="JUnit.Demo1Test" />
+        <item itemvalue="JUnit.DemoTest2" />
+        <item itemvalue="JUnit.DemoTest" />
       </list>
     </recent_temporary>
   </component>
@@ -195,6 +239,8 @@
       <updated>1583162640015</updated>
       <workItem from="1583162642122" duration="36000" />
       <workItem from="1583201519610" duration="8697000" />
+      <workItem from="1583229563766" duration="2644000" />
+      <workItem from="1583243230107" duration="2763000" />
     </task>
     <task id="LOCAL-00001" summary="make some modify">
       <created>1583205430208</created>
