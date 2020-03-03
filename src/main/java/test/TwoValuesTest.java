@@ -28,7 +28,7 @@ public void testAdd() throws Exception {
 */ 
 @Test
 public void testMinus() throws Exception {
-     assertEquals(0, new TwoValues(1, 2).minus());
+     assertEquals(-1, new TwoValues(1, 2).minus());
 } 
 
 
