@@ -1,5 +1,3 @@
-package test;
-import operation.*;
 
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -18,7 +16,7 @@ public class TwoValuesTest {
 */ 
 @Test
 public void testAdd() throws Exception {
-     assertEquals(3, new TwoValues(1, 2).add());
+     assertEquals(3, new operation.TwoValues(1, 2).add());
 } 
 
 /** 
@@ -28,7 +26,7 @@ public void testAdd() throws Exception {
 */ 
 @Test
 public void testMinus() throws Exception {
-     assertEquals(-1, new TwoValues(1, 2).minus());
+     assertEquals(-1, new operation.TwoValues(1, 2).minus());
 } 
 
 

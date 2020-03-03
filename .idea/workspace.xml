@@ -18,8 +18,20 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/test" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\myGitHubs\fore\src\main\test" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\myGitHubs\fore\src" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -33,7 +45,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TwoValuesTest">
+  <component name="RunManager" selected="JUnit.TwoValuesTest (1)">
+    <configuration name="TwoValuesTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="fore" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TwoValuesTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TwoValuesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="fore" />
       <extension name="coverage">
@@ -156,6 +177,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TwoValuesTest (1)" />
         <item itemvalue="JUnit.TwoValuesTest" />
         <item itemvalue="TestNG.TwoValuesTest" />
       </list>
@@ -172,7 +194,7 @@
       <option name="presentableId" value="Default" />
       <updated>1583162640015</updated>
       <workItem from="1583162642122" duration="36000" />
-      <workItem from="1583201519610" duration="3727000" />
+      <workItem from="1583201519610" duration="8697000" />
     </task>
     <task id="LOCAL-00001" summary="make some modify">
       <created>1583205430208</created>
@@ -181,7 +203,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583205430208</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="make all tests correct">
+      <created>1583213580322</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1583213580322</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -202,6 +231,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="make some modify" />
-    <option name="LAST_COMMIT_MESSAGE" value="make some modify" />
+    <MESSAGE value="make all tests correct" />
+    <option name="LAST_COMMIT_MESSAGE" value="make all tests correct" />
   </component>
 </project>
