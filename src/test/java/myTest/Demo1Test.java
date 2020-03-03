@@ -16,4 +16,9 @@ public class Demo1Test {
         assertEquals(3, new TwoValues(1, 2).minus());
     }
 
+    @Test
+    public void minus2() {
+        assertEquals(0, new TwoValues(2, 2).add());
+    }
+
 }
