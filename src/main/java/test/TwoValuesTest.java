@@ -1,10 +1,8 @@
 package test;
 import operation.*;
 
-import org.testng.annotations.Test;
-
-import static org.junit.Assert.*;
-
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 /** 
 * TwoValues Tester. 
 * 
@@ -12,8 +10,7 @@ import static org.junit.Assert.*;
 * @since <pre>Mar 2, 2020</pre> 
 * @version 1.0 
 */ 
-public class TwoValuesTest { 
-
+public class TwoValuesTest {
 /** 
 * 
 * Method: Add() 
